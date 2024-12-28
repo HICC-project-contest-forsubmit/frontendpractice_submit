@@ -1,0 +1,119 @@
+/* 기본 서체와 레이아웃 */
+body {
+  font-family: "Pretendard", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+article {
+  flex: 3;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+article img {
+  max-width: 100%;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+aside {
+  flex: 1;
+  background: #f1f1f1;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+aside h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside ul li {
+  margin-bottom: 0.5rem;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+aside ul li a:hover {
+  text-decoration: underline;
+}
+
+aside ul li a {
+  color: #0056b3;
+}
+aside ul li a:hover {
+  color: #003366;
+  text-decoration: underline;
+}
+
+article img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
